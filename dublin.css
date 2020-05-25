@@ -1,0 +1,160 @@
+body {
+  background: #4274A2;
+}
+
+/********* FRAME  **********/
+.frame {
+  position: relative;
+  display: block;
+  margin: auto;
+  border: 1px solid red;
+  width: 1000px;
+  height: 384px;
+  margin-top: 5%;
+  background: none;
+}
+
+.v-line {
+  position: absolute;
+  border-left: 1px solid red;
+  height: 384px;
+  width: 1px;
+  left: 50%;
+}
+
+.h-line {
+  position: absolute;
+  border-top: 1px solid red;
+  height: 1px;
+  width: 1000px;
+  top: 50%;
+}
+
+/********* RIVER  **********/
+.left-bank {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  background: #1E1A1B;
+  width: 37%;
+  height: 1%;
+  margin-right: 0px;
+  transform: rotate(175deg);
+}
+
+.right-bank {
+    position: absolute;
+  top: 55%;
+  right: 0;
+  background: #1E1A1B;
+  width: 37%;
+  height: 1%;
+  margin-right: 0px;
+  transform: rotate(6deg);
+}
+
+/********* BRIDGE  **********/
+.road {
+  position: absolute;
+  top: 51%;
+  right: 17%;
+  background: #F0EDE4;
+  width: 57%;
+  height: 1%;
+  margin-right: 0px;
+}
+
+.under-road {
+  color: #364447;
+}
+
+
+/*#F666F2*/
+.arm {
+  position: absolute;
+  top: 22%;
+  right: 23%;
+  /*background: #F6F7F2;*/
+  width: 31%;
+  height: 23%;
+  border: 10px solid #F6F7F2;
+  margin-right: 0px;
+  /*border-radius: 60%;*/
+  transform: rotate(36deg);
+  border-color: #F6F7F2 transparent transparent transparent;
+  border-radius: 69%/26px 70px 0 0;
+}
+
+.arm-masking {
+  position: absolute;
+  background: #4274A2;
+  top: 16%;
+  right: 25%;
+  width: 21%;
+  height: 10%;
+  transform: rotate(36deg);
+  z-index: -1;
+}
+
+.string-core {
+  position: absolute;
+  top: 42%;
+  right: 15%;
+  background: #F6F7F2;
+  width: 4.5%;
+  height: 1.6px;
+  margin-right: 12%;
+  padding-right: 11%;
+  transform: rotate(-36deg);
+  z-index: -2;
+}
+
+.string {
+  position: absolute;
+  top: -760%;
+  right: 2%;
+  background: #F0EDE4;
+  width: 103%;
+  height: 1px;
+  margin-right: 0px;
+  
+}
+
+.back-string-1 {
+  position: absolute;
+  top: 29%;
+  right: 15%;
+  background: #F0EDE4;
+  width: 34%;
+  height: 1px;
+  transform: rotate(30deg);
+}
+
+.back-string-2 {
+  position: absolute;
+  top: 29%;
+  right: 16%;
+  background: #F0EDE4;
+  width: 34%;
+  height: 1px;
+  transform: rotate(32deg);
+}
+
+.foundation {
+  position: absolute;
+  top: 51%;
+  right: 25%;
+  background: #F0EDE4;
+  width: 8%;
+  height: 8%;
+}
+
+.pole {
+  position: absolute;
+  top: 31%;
+  right: 35%;
+  background: #81807D;
+  width: 1%;
+  height: 3%;
+}
+
